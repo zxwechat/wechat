@@ -1,0 +1,19 @@
+<view class = "content">
+
+   <view class='img'>
+     <image src='../../resources/logo.png' class='image'> </image>
+   </view>
+  
+    <view class='input_view'>
+     <input  placeholder='请输入学校名称' type='text'></input>
+    </view>
+  
+    <view class='input_view' style='border-bottom: 1px solid #ddd;'>
+     <input   placeholder='请输入入学编码' type='text'></input>
+    </view>
+
+    <view class='btnView'>
+      <button class='btnText'type= 'primary' bindtap='login'> 登录 </button>
+    </view>
+
+</view>

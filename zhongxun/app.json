@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/test/test",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "众寻智能分寝",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#EDEDED",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "selectedColor": "ffff00",
+    "list": [
+      {
+        "pagePath": "pages/test/test",
+        "text": "测试",
+        "iconPath": "resources/text.png",
+        "selectedIconPath": "resources/choosetext.png"
+       },
+        {
+          "pagePath": "pages/mine/mine",
+          "text": "我",
+          "iconPath": "resources/mine.png",
+          "selectedIconPath": "resources/choosemine.png"
+          
+        }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
